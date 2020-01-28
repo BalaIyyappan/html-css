@@ -1,4 +1,4 @@
-
+Basic Tags ref link: https://www.w3schools.com/tags/ref_byfunc.asp
 <!-- .... --> Comment single or group of lines
 <> and </> Open and closing tags
 <!DOCTYPE html> Html5 standard
