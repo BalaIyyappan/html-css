@@ -1,1 +1,27 @@
 
+<!-- .... --> Comment single or group of lines
+<> and </> Open and closing tags
+<!DOCTYPE html> Html5 standard
+<head> Head of html contains title and meta data of html page
+<title> Title of web page
+<body> Body of html page
+<h1 to h6> Big to small size of bold text display
+<form> Form initialitation tag 
+<table> Table initialization tag
+<br> Line break tag
+<hr> Horizontal Line tag
+<p> Paragraph tag
+<b> Bold tag
+<th> Table header tag
+<td> Table data entry tag
+<input> To get input from user
+  Input has different types:
+    text - To get input as text
+    password - To get input as password
+    numbers - To get input as number
+
+<select> Used to select from dropdown list box
+  <option> To display options in dropdown box
+  
+<div> It is like a container which has operational tags. Div is called semantic element
+<a> Anchor tag used to hold any link or URL 
