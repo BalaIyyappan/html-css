@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sample Page</title>
+	<style type="text/css">
+		body{
+			background-color: #45d15a;
+
+		}
+		h1{
+			color:blue;
+			text-align:center;
+			padding-left: 3em;
+		}
+		.form{
+			text-align:center;
+			white-space: pre;
+		}
+		.formelements{
+			padding: 1px;
+			margin: 10px;
+			text-indent: 2px;
+			margin-left: 5px;
+		}
+		#submit{
+			color: white;
+			background-color: red;
+			width: 20em;
+			height:3em;
+		}
+		#submit:hover{
+			color: blue;
+		}
+		.box{
+			padding: 10px;
+			margin-top: 1em;
+			background-color: yellow;
+		}
+		.lang{
+			text-align-last: left;
+			word-wrap: break-word;
+		}
+		.marks{
+			border-style: dotted;
+			border-color: blue;
+		}
+		#name{
+			margin-left: 2em;
+		}
+		#mail{
+			margin-left: 2em;
+		}
+		#pass{
+			margin-left: 1.4em;
+		}
+		#age{
+			margin-left: 2.4em;	
+			margin-bottom: 1.8em;
+		}
+		#fem{
+			margin-left: 1.5em;
+		}
+		#eng{
+			margin-left: 1.1em;
+		}
+		#fre{
+			margin-left: 0.9em;
+		}
+
+
+	</style>
+</head>
+<body>
+	<h1>Personal Details</h1>
+	<div>
+	<form action="#" class="form">
+		Name:    <input type="text" name="Name" placeholder="Enter your Name:" class="formelements" id="name">
+		Mail ID: <input type="email" name="Mail" placeholder="Enter your Mail" class="formelements" id="mail">
+		Password:<input type="password" name="Password" placeholder="Enter your Pass" class="formelements" id="pass">
+		Age:     <input type="number" name="Age" placeholder="Enter your Age" class="formelements" id="age">
+		Degree:
+		<select class="box">
+			<option value="BE">BE</option>
+			<option value="BSC">BSC</option>
+			<option value="B.Tech">B.Tech</option>
+		</select><br>
+		Languages Known:<br>
+		<input type="checkbox" name="Lang" class="lang">Tamil<br>
+		<input type="checkbox" id="eng" class="lang">English<br>
+		<input type="checkbox" name="Lang"class="lang">Hindi<br>
+		<input type="checkbox" id="fre" class="lang">French<br><br>
+
+		Select your Gender:<br>
+		<input type="radio" name="gender">Male<br>	
+		<input type="radio" name="gender" id="fem">Female<br><br>
+		<input type="submit" name="Submit" value="Submit" id="submit"><br><br>
+	</div>
+	</form>
+<!--	<table class="marks" align="center">
+		<tr>
+			<th>Class of study</th>
+			<th>Year of Passing</th>
+			<th>Percentage</th>
+		</tr>
+		<tr>
+			<td>10th</td>
+			<td>2014</td>
+			<td>98%</td>
+		</tr>
+		<tr>
+			<td>12th</td>
+			<td>2016</td>
+			<td>95%</td>
+		</tr>
+		
+	</table>
+-->
+	
+
+
+
+</body>
+</html>
